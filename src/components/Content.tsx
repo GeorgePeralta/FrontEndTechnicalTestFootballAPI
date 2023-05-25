@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
-import Paises from './Paises'
-import Competicoes from './Competicoes'
+import Countries from './Countries'
+import Leagues from './Leagues'
 
 import '../app.css'
 
@@ -20,7 +20,7 @@ export default function Content() {
           <h2>Times</h2>
           </div>
       </div>
-    {active ? <Paises /> : <Competicoes />}
+    {active ? <Countries /> : <Leagues />}
     </div>
   )
 }
