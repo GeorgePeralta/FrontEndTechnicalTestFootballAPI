@@ -1,13 +1,15 @@
-import React from 'react';
-import Login from './components/Login';
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import Content from './components/Content'
+import './index.css'
 
-const App: React.FC = () => {
+export default function App() {
   return (
-    <div>
-      <Login />
-    </div>
-  );
-};
 
-export default App;
-
+    <> 
+      <Navbar />
+      <Content />
+      <Footer />
+    </>
+  )
+}
